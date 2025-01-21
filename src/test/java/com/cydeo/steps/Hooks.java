@@ -15,10 +15,9 @@ public class Hooks {
 
     @Before("@ui")
     public void setUp() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("library_url"));
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
+        Driver.getDriver().get(ConfigurationReader.getProperty("library_url"));
     }
 
     @After("@ui")
@@ -46,10 +45,10 @@ public class Hooks {
         RestAssured.baseURI = ConfigurationReader.getProperty("base_url");
     }
 
-    @After()
-    public void endScenario(Scenario scenario) {
-        System.out.println("Test Result for " + scenario.getName() + " " + scenario.getStatus());
-    }
+//    @After()
+//    public void endScenario(Scenario scenario) {
+//        System.out.println("Test Result for " + scenario.getName() + " " + scenario.getStatus());
+//    }
 
 
 
