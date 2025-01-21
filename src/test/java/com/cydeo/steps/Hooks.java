@@ -6,7 +6,6 @@ import com.cydeo.utilities.DataBaseUtil;
 import com.cydeo.utilities.Driver;
 import io.cucumber.java.*;
 import io.restassured.RestAssured;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
