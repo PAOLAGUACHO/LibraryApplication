@@ -15,16 +15,13 @@
         <cucumber.version>7.3.0</cucumber.version>
     </properties>
 
-
     <dependencies>
-
-        <!--Dependency for Rest Assured library  -->
+        <!-- This dependency for REST -->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.2.1</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -32,58 +29,18 @@
             <version>4.15.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
-        <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>1.0.2</version>
-        </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>io.cucumber</groupId>-->
-<!--            <artifactId>cucumber-junit</artifactId>-->
-<!--            <version>7.3.2</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>io.cucumber</groupId>-->
-<!--            <artifactId>cucumber-java</artifactId>-->
-<!--            <version>7.3.2</version>-->
-<!--        </dependency>-->
-
-
-<!--        &lt;!&ndash; PostgresSQL JDBC driver&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.postgresql</groupId>-->
-<!--            <artifactId>postgresql</artifactId>-->
-<!--            <version>42.2.0</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash; for HTML reports&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>me.jvt.cucumber</groupId>-->
-<!--            <artifactId>reporting-plugin</artifactId>-->
-<!--            <version>7.3.0</version>-->
-<!--        </dependency>-->
-
-
-
-        <!--JUnit 5 Dependency  -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.10.0</version>
-            <scope>test</scope>
-        </dependency>
-
-
-
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>5.5.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
@@ -150,6 +107,9 @@
             </plugin>
         </plugins>
     </build>
+
+
+
 
 
 </project>
